@@ -3,10 +3,10 @@ import Card from "./Card"
 
 function Projects() {
   const projects = [
-    {id: 1, title: 'Project 1', description: '   Lorem Ipsum is simply dummy text of the printing and typesetting industry', skills: ['React', 'Tailwind', 'Firebase']},
-    {id: 2, title: 'Project 2', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', skills: ['React', 'Tailwind', 'Firebase']}
+    {id: 1, title: 'Project 1', description: '   Lorem Ipsum is simply dummy text of the printing and ', skills: ['React', 'Tailwind', 'Firebase']},
+    {id: 2, title: 'Project 2', description: 'Lorem Ipsum is simply dummy text of the printing and ty', skills: ['React', 'Tailwind', 'Firebase']}
     ,
-    {id: 3, title: 'Project 3', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry ', skills: ['React', 'Tailwind', 'Firebase']}
+    {id: 3, title: 'Project 3', description: 'Lorem Ipsum is simply dummy text of the printing and type', skills: ['React', 'Tailwind', 'Firebase']}
   ]
 
   const projectCards = projects.map((project) => {

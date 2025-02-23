@@ -1,7 +1,7 @@
 import Nav from "./Nav"
 import Header from "./Header"
 import Projects from "./Projects"
-import Footer from "./Footer"
+
 
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
        <Nav/>
        <Header />
        <Projects />
-       <Footer />
+
     </div>
   )
 }
