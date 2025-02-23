@@ -6,6 +6,7 @@ function Card({title,description,skills}) {
       <span>{index === skills.length - 1 ? item : item + ","}</span>
     )
   })
+  
   return (
     <div className='rounded hover:bg-gray-100 cursor-pointer p-4 mb-0 sm:mb-2 flex flex-col space-y-2 '>
       <p className='font-semibold text-neutral-800'>{title}</p>

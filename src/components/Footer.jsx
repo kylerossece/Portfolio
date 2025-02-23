@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Footer() {
+
   return (
-    <div>Footer</div>
+    <div className='px-4'>
+      
+    </div>
   )
 }
 
