@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className='flex flex-col space-y-8 px-4 sm:px-3 mt-12 '>
+    <header className='flex flex-col space-y-8 px-4  mt-12 '>
         <div>
         <div className='font-semibold text-neutral-800'>Kyle Prestado</div>
         <div>Web Developer</div>
