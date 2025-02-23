@@ -20,7 +20,7 @@ function Projects() {
   }) 
 
   return (
-    <section className='mt-12 sm:mt-20'>
+    <section className='mt-10 sm:mt-16'>
       <p className='font-semibold text-neutral-800 mb-10 px-4 sm:px-3 '>Projects</p>
       {projectCards}
     </section>
