@@ -1,16 +1,17 @@
 
-import Nav from "./components/Nav"
-import Header from "./components/Header"
-import Projects from "./components/Projects"
+import Home from "./components/Home"
+import About from "./components/About"
+import { Route, Routes } from "react-router-dom";
 
 function App() {
 
   return (
-    <div className="h-screen mx-auto max-w-2xl w-full py-8 sm:py-24 tracking-wide text-neutral-700">
-       <Nav />
-       <Header />
-       <Projects />
-    </div>
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+
   )
 }
 
