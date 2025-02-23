@@ -21,7 +21,7 @@ function Projects() {
 
   return (
     <section className='mt-10 sm:mt-16'>
-      <p className='font-semibold text-neutral-800 mb-10 px-4'>Projects</p>
+      <p className='font-semibold text-neutral-800 mb-8 px-4'>Projects</p>
       {projectCards}
     </section>
   )
