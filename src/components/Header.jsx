@@ -2,15 +2,15 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='flex flex-col space-y-10 '>
-        <div className='text-lg'>
-        <div className='font-semibold'>Kyle Prestado</div>
+    <header className='flex flex-col space-y-8 px-4 sm:px-3 mt-12 '>
+        <div>
+        <div className='font-semibold text-neutral-800'>Kyle Prestado</div>
         <div>Web Developer</div>
         </div>   
-        <div>
+        <div >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </div> 
-    </div>
+    </header>
   )
 }
 
